@@ -49,6 +49,27 @@ label {
     margin-top: 60px;
 }
 
+.copy h5 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .copy p {
     color: #000;
+}
+
+@media (max-width: 992px) {
+    .img-div img {
+        display: none;
+    }
+    .copy {
+        justify-content: center;
+        text-align: center;
+    }
+    .copy h5 {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
